@@ -25,7 +25,7 @@ apis:
   tags: Commits
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-commits-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/bitbucket/snippets-username-encoded-id-commits-get.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
