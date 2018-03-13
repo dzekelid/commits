@@ -40,7 +40,7 @@ apis:
   tags: Commits
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/github/repos-owner-repo-git-commits-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/github/repos-owner-repo-git-commits-shacode-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
