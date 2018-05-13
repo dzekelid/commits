@@ -41,17 +41,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/github/repos-owner-repo-pulls-number-commits-get.md
-- name: Github Get Repos Owner Repo Commits
-  description: List commits on a repository.
+- name: Github Get Repos Owner Repo Commits Ref Status
+  description: |-
+    Get the combined Status for a specific Ref
+    The Combined status endpoint is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the blog post for full details.
+    To access this endpoint during the preview period, you must provide a custom media type in the Accept header:
+    application/vnd.github.she-hulk-preview+json
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Commits
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/repos-owner-repo-commits-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/repos-owner-repo-commits-ref-status-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/repos-owner-repo-commits-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/repos-owner-repo-commits-ref-status-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
