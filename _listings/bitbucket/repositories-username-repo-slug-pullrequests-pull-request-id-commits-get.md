@@ -1,10 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Bitbucket
-  description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
-    data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-    into Bitbucket itself using the Connect framework.
+  title: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Commits
+  description: |-
+    Returns a paginated list of the pull request's commits.
+
+    These are the commits that are being merged into the destination
+    branch when the pull requests gets accepted.
   termsOfService: https://www.atlassian.com/legal/customer-agreement
   contact:
     name: Bitbucket Support
