@@ -1,10 +1,45 @@
 ---
 swagger: "2.0"
 info:
-  title: Bitbucket
-  description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
-    data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-    into Bitbucket itself using the Connect framework.
+  title: Bitbucket Get Repositories Username Repo Slug Commits
+  description: |-
+    These are the repository's commits. They are paginated and returned
+    in reverse chronological order, similar to the output of `git log` and
+    `hg log`. Like these tools, the DAG can be filtered.
+
+    ## GET /repositories/{username}/{repo_slug}/commits/
+
+    Returns all commits in the repo in topological order (newest commit
+    first). All branches and tags are included (similar to
+    `git log --all` and `hg log`).
+
+    ## GET /repositories/{username}/{repo_slug}/commits/master
+
+    Returns all commits on rev `master` (similar to `git log master`,
+    `hg log master`).
+
+    ## GET /repositories/{username}/{repo_slug}/commits/dev?exclude=master
+
+    Returns all commits on ref `dev`, except those that are reachable on
+    `master` (similar to `git log dev ^master`).
+
+    ## GET /repositories/{username}/{repo_slug}/commits/?exclude=master
+
+    Returns all commits in the repo that are not on master
+    (similar to `git log --all ^master`).
+
+    ## GET /repositories/{username}/{repo_slug}/commits/?include=foo&include=bar&exclude=fu&exclude=fubar
+
+    Returns all commits that are on refs `foo` or `bar`, but not on `fu` or
+    `fubar` (similar to `git log foo bar ^fu ^fubar`).
+
+    Because the response could include a very large number of commits, it
+    is paginated. Follow the 'next' link in the response to navigate to the
+    next page of commits. As with other paginated resources, do not
+    construct your own links.
+
+    When the include and exclude parameters are more than can fit in a
+    query string, clients can use a `x-www-form-urlencoded` POST instead.
   termsOfService: https://www.atlassian.com/legal/customer-agreement
   contact:
     name: Bitbucket Support
