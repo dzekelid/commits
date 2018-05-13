@@ -41,15 +41,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/github/repos-owner-repo-pulls-number-commits-get.md
-- name: Github Add Repos Owner Repo Commits Shacode Comments
-  description: Create a commit comment.
+- name: Github Add Repos Owner Repo Git Commits
+  description: Create a Commit.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Commits
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/repos-owner-repo-commits-shacode-comments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/repos-owner-repo-git-commits-post.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
