@@ -28,7 +28,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/aws-codecommit/action-getcommit-get.md
+- name: AWS CodeCommit API Get Commit
+  description: Returns information about a commit, including commit message and committer
+    information.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: http:://{host}//
+  tags: Commits
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/aws-codecommit/action-getcommit-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/codecommit/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/codecommit/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/codecommit/faqs/
+- type: x-getting-started
+  url: ttps://aws.amazon.com/codecommit/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/codecommit/pricing/
+- type: x-website
+  url: https://aws.amazon.com/codecommit/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codecommit/index.html
 - type: x-documentation
