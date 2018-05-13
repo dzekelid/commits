@@ -26,21 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/commits/master/_listings/bitbucket/snippets-username-encoded-id-commits-revision-parameters.md
-- name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Commits
-  description: |-
-    Returns a paginated list of the pull request's commits.
-
-    These are the commits that are being merged into the destination
-    branch when the pull requests gets accepted.
+- name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Commits
+  description: Parameters repositories username repo slug pullrequests pull request  commits
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Commits
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-commits-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-commits-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-commits-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-commits-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
