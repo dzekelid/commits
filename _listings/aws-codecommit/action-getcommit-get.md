@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeCommit API
+  title: AWS CodeCommit API Get Commit
   version: 1.0.0
+  description: Returns information about a commit, including commit message and committer
+    information.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetCommit&k=1:
+  /?Action=GetCommit:
     get:
       summary: ' Get Commit '
       description: Returns information about a commit, including commit message and
