@@ -1,10 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: Bitbucket
-  description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
-    data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-    into Bitbucket itself using the Connect framework.
+  title: Bitbucket Add Repositories Username Repo Slug Commits Revision
+  description: |-
+    Identical to `GET /repositories/{username}/{repo_slug}/commits`,
+    except that POST allows clients to place the include and exclude
+    parameters in the request body to avoid URL length issues.
+
+    **Note that this resource does NOT support new commit creation.**
   termsOfService: https://www.atlassian.com/legal/customer-agreement
   contact:
     name: Bitbucket Support
