@@ -1,15 +1,15 @@
 ---
 name: GitHub
 x-slug: github
-description: With a community of more than 10 million people, developers can discover,
-  use and contribute to over 24 million projects using a powerful, collaborative workflow.    Whether
-  using GitHub.com or your own instance of GitHub Enterprise, you can integrate ...
+description: GitHub brings together the worlds largest community of developers to
+  discover, share, and build better software. From open source projects to private
+  team repositories, were your all-in-one platform for collaborative development.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
 x-kinRank: "10"
-x-alexaRank: "70"
+x-alexaRank: "64"
 tags: Commits
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
@@ -111,10 +111,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepopullsnumbercommits-get-openapi.md
 - name: Github
   x-api-slug: github
-  description: With a community of more than 10 million people, developers can discover,
-    use and contribute to over 24 million projects using a powerful, collaborative
-    workflow.    Whether using GitHub.com or your own instance of GitHub Enterprise,
-    you can integrate ...
+  description: GitHub brings together the worlds largest community of developers to
+    discover, share, and build better software. From open source projects to private
+    team repositories, were your all-in-one platform for collaborative development.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
