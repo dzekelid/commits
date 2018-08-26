@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Commits
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Get Repositories Username Repo Slug Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Commits
+  x-api-slug: repositoriesusernamerepo-slugcommits-get
   description: |-
     These are the repository's commits. They are paginated and returned
     in reverse chronological order, similar to the output of `git log` and
@@ -54,27 +54,29 @@ apis:
     query string, clients can use a `x-www-form-urlencoded` POST instead.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits
-  tags: Repositories, Username, Repo, Slug, Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommits-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Commits
+  x-api-slug: repositoriesusernamerepo-slugcommits-parameters
   description: Parameters repositories username repo slug commits
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits
-  tags: Repositories, Username, Repo, Slug, Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommits-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommits-parameters-openapi.md
-- name: Bitbucket Add Repositories Username Repo Slug Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Add Repositories Username Repo Slug Commits
+  x-api-slug: repositoriesusernamerepo-slugcommits-post
   description: |-
     Identical to `GET /repositories/{username}/{repo_slug}/commits`,
     except that POST allows clients to place the include and exclude
@@ -83,15 +85,16 @@ apis:
     **Note that this resource does NOT support new commit creation.**
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits
-  tags: Repositories, Username, Repo, Slug, Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommits-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommits-post-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Commits Revision
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Commits Revision
+  x-api-slug: repositoriesusernamerepo-slugcommitsrevision-get
   description: |-
     These are the repository's commits. They are paginated and returned
     in reverse chronological order, similar to the output of `git log` and
@@ -132,27 +135,29 @@ apis:
     query string, clients can use a `x-www-form-urlencoded` POST instead.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits/{revision}
-  tags: Repositories, Username, Repo, Slug, Commits, Revision
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommitsrevision-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommitsrevision-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Commits Revision
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Commits Revision
+  x-api-slug: repositoriesusernamerepo-slugcommitsrevision-parameters
   description: Parameters repositories username repo slug commits revision
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits/{revision}
-  tags: Repositories, Username, Repo, Slug, Commits, Revision
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommitsrevision-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommitsrevision-parameters-openapi.md
-- name: Bitbucket Add Repositories Username Repo Slug Commits Revision
-  x-api-slug: bitbucket
+- name: Bitbucket - Add Repositories Username Repo Slug Commits Revision
+  x-api-slug: repositoriesusernamerepo-slugcommitsrevision-post
   description: |-
     Identical to `GET /repositories/{username}/{repo_slug}/commits`,
     except that POST allows clients to place the include and exclude
@@ -161,15 +166,16 @@ apis:
     **Note that this resource does NOT support new commit creation.**
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/commits/{revision}
-  tags: Repositories, Username, Repo, Slug, Commits, Revision
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommitsrevision-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugcommitsrevision-post-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Pullrequests Pull Request  Commits
+  x-api-slug: repositoriesusernamerepo-slugpullrequestspull-request-idcommits-get
   description: |-
     Returns a paginated list of the pull request's commits.
 
@@ -177,85 +183,84 @@ apis:
     branch when the pull requests gets accepted.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/commits
-  tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugpullrequestspull-request-idcommits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugpullrequestspull-request-idcommits-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Pullrequests Pull Request  Commits
+  x-api-slug: repositoriesusernamerepo-slugpullrequestspull-request-idcommits-parameters
   description: Parameters repositories username repo slug pullrequests pull request  commits
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/pullrequests/{pull_request_id}/commits
-  tags: Repositories, Username, Repo, Slug, Pullrequests, Pull, Request, , Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugpullrequestspull-request-idcommits-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/repositoriesusernamerepo-slugpullrequestspull-request-idcommits-parameters-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Commits
+  x-api-slug: snippetsusernameencoded-idcommits-get
   description: Returns the changes (commits) made on this snippet.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits
-  tags: Snippets, Username, Encoded, , Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommits-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Commits
+  x-api-slug: snippetsusernameencoded-idcommits-parameters
   description: Parameters snippets username encoded  commits
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits
-  tags: Snippets, Username, Encoded, , Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommits-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommits-parameters-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Commits Revision
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Commits Revision
+  x-api-slug: snippetsusernameencoded-idcommitsrevision-get
   description: Get snippets username encoded  commits revision
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits/{revision}
-  tags: Snippets, Username, Encoded, , Commits, Revision
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Commits Revision
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Commits Revision
+  x-api-slug: snippetsusernameencoded-idcommitsrevision-parameters
   description: Parameters snippets username encoded  commits revision
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits/{revision}
-  tags: Snippets, Username, Encoded, , Commits, Revision
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Commits
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer
