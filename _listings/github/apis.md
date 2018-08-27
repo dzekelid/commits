@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Commits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
@@ -81,6 +81,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepocommitsshacodecomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepocommitsshacodecomments-get-openapi.md
+- name: GitHub - Add Repos Owner Repo Commits Shacode Comments
+  x-api-slug: reposownerrepocommitsshacodecomments-post
+  description: Create a commit comment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepocommitsshacodecomments-post-openapi.md
+- name: GitHub - Add Repos Owner Repo Git Commits
+  x-api-slug: reposownerrepogitcommits-post
+  description: Create a Commit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepogitcommits-post-openapi.md
 - name: GitHub - Get Repos Owner Repo Git Commits Shacode
   x-api-slug: reposownerrepogitcommitsshacode-get
   description: Get a Commit.
@@ -113,6 +141,44 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepopullsnumbercommits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepopullsnumbercommits-get-openapi.md
+- name: GitHub - Get Repos Owner Repo Stats Commit Activity
+  x-api-slug: reposownerrepostatscommit-activity-get
+  description: |-
+    Get the last year of commit activity data.
+    Returns the last year of commit activity grouped by week. The days array
+    is a group of commits per day, starting on Sunday.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepostatscommit-activity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepostatscommit-activity-get-openapi.md
+- name: GitHub - Get Repos Owner Repo Stats Commit Activity
+  x-api-slug: reposownerrepostatscommit-activity-get
+  description: |-
+    Get the last year of commit activity data.
+    Returns the last year of commit activity grouped by week. The days array
+    is a group of commits per day, starting on Sunday.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepostatscommit-activity-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/commits/master/_listings/github/reposownerrepostatscommit-activity-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
